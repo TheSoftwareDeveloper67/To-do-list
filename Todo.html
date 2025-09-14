@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,3 +30,36 @@
     <script src="Todo.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="Todo.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="h1"></h1>
+        <ul id="todoList"></ul>
+
+        <form onsubmit="addToList(event)">
+            <input type="text" id="todoInput" placeholder="Enter a task">
+            <div id="buttonDiv">
+                <button type="submit" id="button">Create New Task</button>
+                <button type="button" id="rmbutton">Remove Newest Task</button>
+                <button type="button" id="rmoldbutton">Remove Oldest Task</button>
+                <button type="button" id="rmbuttonall">Remove All Tasks</button>
+            </div>
+            <div>
+                <input type="text" id="title" placeholder="Enter Title">
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="Todo.js"></script>
+</body>
+</html>
+>>>>>>> 9c7840a79d96152eb186fc62bbef282fa530d1d5
